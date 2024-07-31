@@ -1,4 +1,4 @@
-# ROS2 Unity VR Point Cloud Visualization
+# ROS Unity VR Point Cloud Visualization
 
 ## Overview
 This guide details the visualization of point cloud data from ROS1 Neotic in Unity VR. The visualization pipeline is divided into two main parts: setting up ROS to publish point cloud data, and setting up Unity to visualize this data in VR. Also there is comminication part. One PC is running on Ubuntu which get the point cloud data from sensors and publish using network other one on Virtual Box which is get the point cloud data using network and send the topic to Unity using websocket.
